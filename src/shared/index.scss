@@ -1,0 +1,26 @@
+@font-face {
+  font-family: 'NeoSansW23';
+  src: url('./assets/fonts/NeoSansW23-Light.woff') format('woff2');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'NeoSansW23';
+  src: url('./assets/fonts/NeoSansW23-Medium.woff') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  font-weight: 'regular';
+  font-size: '22px';
+  line-height: '37px';
+  overflow-x: hidden;
+  background-color: 'red';
+}

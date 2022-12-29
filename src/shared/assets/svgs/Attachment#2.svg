@@ -1,0 +1,7 @@
+<svg id="Attachment_2" data-name="Attachment#2" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <rect id="bound" width="20" height="20" fill="none"/>
+  <path id="Combined_Shape" data-name="Combined Shape" d="M6.667,2.5h-2.5a.833.833,0,0,0,0,1.667h2.5V5A1.667,1.667,0,0,1,5,6.667H1.667A1.667,1.667,0,0,1,0,5V1.667A1.667,1.667,0,0,1,1.667,0H5A1.667,1.667,0,0,1,6.667,1.667Z" transform="translate(1.75 13.536) rotate(-45)" fill="#f64e60" opacity="0.3"/>
+  <path id="Combined_Shape_Copy" data-name="Combined Shape Copy" d="M0,4.167H2.5A.833.833,0,1,0,2.5,2.5H0V1.667A1.667,1.667,0,0,1,1.667,0H5A1.667,1.667,0,0,1,6.667,1.667V5A1.667,1.667,0,0,1,5,6.667H1.667A1.667,1.667,0,0,1,0,5Z" transform="translate(8.821 6.464) rotate(-45)" fill="#f64e60"/>
+  <path id="Combined_Shape-2" data-name="Combined Shape" d="M2.238,8.476a.833.833,0,1,1,0-1.667H3.905a.833.833,0,1,1,0,1.667ZM4.7,5.875,3.518,4.7A.834.834,0,0,1,4.7,3.518L5.875,4.7A.833.833,0,1,1,4.7,5.875ZM6.953,3.762V2.1a.833.833,0,0,1,1.667,0V3.762a.833.833,0,1,1-1.667,0Z" fill="#f64e60" opacity="0.3"/>
+  <path id="Combined_Shape_Copy_2" data-name="Combined Shape Copy 2" d="M11.423,17.661V15.994a.833.833,0,0,1,1.667,0v1.667a.833.833,0,1,1-1.667,0Zm3.779-1.28L14.024,15.2A.833.833,0,0,1,15.2,14.024L16.381,15.2A.834.834,0,0,1,15.2,16.381Zm.935-3.434a.833.833,0,1,1,0-1.667H17.8a.833.833,0,1,1,0,1.667Z" fill="#f64e60" opacity="0.3"/>
+</svg>

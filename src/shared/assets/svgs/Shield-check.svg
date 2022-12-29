@@ -1,0 +1,5 @@
+<svg id="Shield-check" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22">
+  <rect id="bound" width="22" height="22" fill="none"/>
+  <path id="Path_50" data-name="Path 50" d="M0,1.343,7.333-.032l7.333,1.375V14.176L7.333,18.76,0,14.176Z" transform="translate(3.667 2.324)" fill="#6993ff" opacity="0.3"/>
+  <path id="check-path" d="M2.635,5.271a.867.867,0,0,1-.615-.264L.264,3.25a.849.849,0,0,1,0-1.23.849.849,0,0,1,1.23,0L2.635,3.162l2.9-2.9a.849.849,0,0,1,1.23,0,.849.849,0,0,1,0,1.23L3.25,5.007A.867.867,0,0,1,2.635,5.271Z" transform="translate(7.608 8.25)" fill="#6993ff"/>
+</svg>

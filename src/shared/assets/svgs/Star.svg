@@ -1,0 +1,6 @@
+<svg id="Star" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 16 16">
+  <g id="iconspace_Star_25px">
+    <path id="Path" d="M0,0H16V16H0Z" fill="none"/>
+    <path id="Path-2" data-name="Path" d="M6.72,10.945,3.058,13.386a.32.32,0,0,1-.494-.312l.617-4.322L.094,5.666a.32.32,0,0,1,.181-.543l4.3-.615L6.426.194a.32.32,0,0,1,.588,0L8.864,4.509l4.3.615a.32.32,0,0,1,.181.543L10.26,8.753l.617,4.322a.32.32,0,0,1-.494.312Z" transform="translate(1.28 1.28)" fill="#fff"/>
+  </g>
+</svg>

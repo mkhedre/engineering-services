@@ -1,0 +1,5 @@
+<svg id="Library" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <rect id="bound" width="20" height="20" fill="none"/>
+  <path id="Combined_Shape" data-name="Combined Shape" d="M8.5,17.5a1,1,0,0,1-1-1V3.5a1,1,0,0,1,1-1H9a1,1,0,0,1,1,1v13a1,1,0,0,1-1,1Zm-4.166,0a1,1,0,0,1-1-1V3.5a1,1,0,0,1,1-1h.5a1,1,0,0,1,1,1v13a1,1,0,0,1-1,1Z" fill="#24b2f3"/>
+  <rect id="Rectangle_Copy_2" data-name="Rectangle Copy 2" width="2.5" height="15" rx="1" transform="matrix(0.946, -0.326, 0.326, 0.946, 11.231, 3.27)" fill="#24b2f3" opacity="0.3"/>
+</svg>

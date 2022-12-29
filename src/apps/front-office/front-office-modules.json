@@ -1,0 +1,56 @@
+{
+  "path": "/",
+  "name": "front-office",
+  "modules": [
+    {
+      "entry": [
+        "/my-account",
+        "/login",
+        "/signup",
+        "/verify-code",
+        "/reset-password",
+        "/forget-password",
+        "/edit-profile"
+      ],
+      "module": "account"
+    },
+    {
+      "entry": ["/"],
+      "module": "home"
+    },
+    {
+      "entry": ["/price-offer"],
+      "module": "PriceOffer"
+    },
+    {
+      "entry": ["/orders", "/favorite-orders"],
+      "module": "Orders"
+    },
+    {
+      "entry": [
+        "/404",
+        "/about-us",
+        "/terms-conditions",
+        "/contact-us",
+        "/our-morals",
+        "/privacy-policy",
+        "/organizational-chart",
+        "/faq",
+        "/search-results"
+      ],
+      "module": "Pages"
+    },
+    {
+      "entry": ["/engineering-services"],
+      "module": "EngineeringServices"
+    },
+    {
+      "entry": ["/engineering-officess"],
+      "module": "Officess"
+    },
+    {
+      "entry": ["/categories"],
+      "module": "Categories"
+    }
+  ]
+}

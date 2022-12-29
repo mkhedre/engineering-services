@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="43.387" height="43.387" viewBox="0 0 43.387 43.387">
+  <g id="Group_66358" data-name="Group 66358" transform="translate(-317 -231)">
+    <g id="Component_49_109" data-name="Component 49 – 109" transform="translate(317 231)">
+      <path id="Path_19305" data-name="Path 19305" d="M20.89,0h.8A21.693,21.693,0,1,1,0,21.693v-.8A20.89,20.89,0,0,1,20.89,0Z" transform="translate(0)" fill="#363636" opacity="0.09"/>
+      <path id="Vector" d="M0,0H20.176V20.176H0Z" transform="translate(11.972 12.385)" fill="none" opacity="0"/>
+    </g>
+    <g id="Group_66357" data-name="Group 66357" transform="translate(327.948 241.416)">
+      <path id="Vector-2" data-name="Vector" d="M19.738,4.173c-1.688-.168-3.376-.294-5.075-.388v-.01l-.231-1.363C14.275,1.447,14.044,0,11.59,0H8.843C6.4,0,6.169,1.384,6,2.4l-.22,1.342c-.975.063-1.95.126-2.925.22l-2.139.21A.785.785,0,1,0,.864,5.736L3,5.526a83.6,83.6,0,0,1,16.588.22h.084a.794.794,0,0,0,.786-.713A.8.8,0,0,0,19.738,4.173Z" transform="translate(0 0)" fill="#292d32"/>
+      <path id="Vector-3" data-name="Vector" d="M15.521.409A1.326,1.326,0,0,0,14.567,0H1.313A1.308,1.308,0,0,0,.359.409,1.351,1.351,0,0,0,0,1.395l.65,10.758c.115,1.594.262,3.586,3.922,3.586h6.732c3.659,0,3.806-1.982,3.922-3.586l.65-10.748A1.359,1.359,0,0,0,15.521.409Z" transform="translate(2.288 6.816)" fill="#292d32" opacity="0.399"/>
+      <path id="Vector_Stroke_" data-name="Vector (Stroke)" d="M0,.786A.786.786,0,0,1,.786,0H4.278a.786.786,0,0,1,0,1.573H.786A.786.786,0,0,1,0,.786Z" transform="translate(7.69 15.728)" fill="#292d32"/>
+      <path id="Vector_Stroke_2" data-name="Vector (Stroke)" d="M0,.786A.786.786,0,0,1,.786,0H6.029a.786.786,0,0,1,0,1.573H.786A.786.786,0,0,1,0,.786Z" transform="translate(6.82 11.534)" fill="#292d32"/>
+    </g>
+  </g>
+</svg>

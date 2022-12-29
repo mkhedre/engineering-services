@@ -1,0 +1,5 @@
+<svg id="close-circle" xmlns="http://www.w3.org/2000/svg" width="35.04" height="35.04" viewBox="0 0 35.04 35.04">
+  <path id="Vector" d="M29.9,14.951A14.951,14.951,0,1,1,14.951,0,14.951,14.951,0,0,1,29.9,14.951Z" transform="translate(2.569 2.569)" fill="#292d32" opacity="0.4"/>
+  <path id="Vector-2" data-name="Vector" d="M5.957,4.6,8.912,1.641A.963.963,0,0,0,7.55.279L4.6,3.234,1.641.279A.963.963,0,0,0,.279,1.641L3.234,4.6.279,7.55a.969.969,0,0,0,0,1.362.961.961,0,0,0,1.362,0L4.6,5.957,7.55,8.912a.961.961,0,0,0,1.362,0,.969.969,0,0,0,0-1.362Z" transform="translate(12.925 12.925)" fill="#292d32"/>
+  <path id="Vector-3" data-name="Vector" d="M0,0H35.04V35.04H0Z" fill="none" opacity="0"/>
+</svg>

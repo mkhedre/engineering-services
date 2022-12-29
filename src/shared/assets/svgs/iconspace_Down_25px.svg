@@ -1,0 +1,6 @@
+<svg id="iconspace_Down_25px" xmlns="http://www.w3.org/2000/svg" width="26.667" height="26.667" viewBox="0 0 26.667 26.667">
+  <path id="Path" d="M0,0H26.667V26.667H0Z" fill="none"/>
+  <g id="angle-down" transform="translate(10.538 19.462) rotate(-90)">
+    <path id="Path-2" data-name="Path" d="M10.929.31a1.067,1.067,0,0,0-1.5,0L5.6,4.086,1.82.31a1.067,1.067,0,1,0-1.5,1.515L4.838,6.348a1.067,1.067,0,0,0,1.515,0l4.576-4.523a1.067,1.067,0,0,0,0-1.515Z" transform="translate(0 0)" fill="#919eab"/>
+  </g>
+</svg>
