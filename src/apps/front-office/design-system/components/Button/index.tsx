@@ -24,6 +24,7 @@ interface ButtonPropsType {
     | 'link'
     | 'borderdGray'
     | 'transparent'
+    | 'white'
     | 'burble';
   weight?: 100 | 200 | 300 | 400 | 500 | 600 | 700 | 800 | 900;
   textDecoration?: string;
@@ -174,6 +175,20 @@ export default function Button({
         },
       };
       break;
+    case 'white':
+      buttonVariant = {
+        ...buttonVariant,
+        color: textColor ? textColor : theme.colors.PRIMARY.main,
+        borderRadius: borderRadius ? borderRadius : '50px',
+        background: 'transparent',
+        fontSize: fontSize ? fontSize : '50px',
+        border: `2px solid ${theme.colors.bordercolor}`,
+        '&:hover': {
+          // background: background ? background : theme.colors.SECONDARY[100],
+          // border: `2px solid ${theme.colors.lightBlue[200]}`,
+        },
+      };
+      break;
     default:
       break;
   }
@@ -194,7 +209,8 @@ export default function Button({
       ? 'underline'
       : 'none',
     [largmobile]: {
-      fontSize: fontSize ? `calc(${fontSize}*0.9)` : '1rem',
+      fontSize: fontSize ? `calc(${fontSize}*0.9)` : '.9rem',
+      fontWeight: 500,
     },
   });
   const StyledButton = styled('button')({

@@ -2,19 +2,18 @@ import {
   Box,
   Container,
   Group,
-  Image,
   Indicator,
   Paper,
   Text,
   ThemeIcon,
 } from '@mantine/core';
 import { trans } from '@mongez/localization';
-import Button from 'design-system/components/Button';
 import NewSection from 'design-system/components/Sections/NewSection';
 import theme from 'design-system/theme';
 import Layer from 'shared/assets/images/Layer.png';
 import Icons from 'shared/assets/svgs';
 import URLS from '../../utils/urls';
+import OfferCard from './OfferCard';
 
 const data = [
   {
@@ -91,45 +90,15 @@ function PriceOfferPage() {
           }}
           mt={50}
         >
-          <Text>{trans('officesOffers')}</Text>
-          {data.map(
-            ({ img, name, price, rating, subtitle, withConditions }, index) => (
-              <Paper
-                key={index}
-                withBorder
-                p={10}
-                my={20}
-                sx={{ backgroundColor: '#fff', borderColler: '#F6F7F7' }}
-              >
-                <Group position="apart">
-                  <Group position="apart">
-                    <Indicator
-                      inline
-                      label={rating}
-                      size={30}
-                      color={theme.colors.SECONDARY.main}
-                      withBorder
-                    >
-                      <ThemeIcon size={70} color="#fff">
-                        <Image src={Layer} height={25} width="fit-content" />
-                      </ThemeIcon>
-                    </Indicator>
-                    <Box>
-                      <Text>{name}</Text>
-                      <Text size="sm">{subtitle}</Text>
-                    </Box>
-                  </Group>
-                  <Group>
-                    <Button
-                      text={`${trans(`priceIs`)} ${price} ${trans('sr')}`}
-                      variant="transparent"
-                    />
-                    <Button text={trans('acceptOffer')} variant="secondary" />
-                  </Group>
-                </Group>
-              </Paper>
-            )
-          )}
+          {/* color="red" position="top-end" size={20} withBorder */}
+          <Indicator>
+            <Text style={{ width: 'fit-content' }}>
+              {trans('officesOffers')}
+            </Text>
+          </Indicator>
+          {data.map((item, index) => (
+            <OfferCard {...item} key={index} />
+          ))}
         </Paper>
       </Container>
     </>

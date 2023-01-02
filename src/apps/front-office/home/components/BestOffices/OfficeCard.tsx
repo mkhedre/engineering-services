@@ -29,7 +29,7 @@ const OfficeCard = ({ img, address, icon, rate, text, id }: CardProps) => {
     >
       <Card.Section py={35} px={30}>
         <Group>
-          <ThemeIcon size={70} variant="outline">
+          <ThemeIcon size={70} variant="light" color="#fff">
             <Image src={img} height={25} width="fit-content" />
           </ThemeIcon>
           <Stack sx={{ flex: 1 }}>

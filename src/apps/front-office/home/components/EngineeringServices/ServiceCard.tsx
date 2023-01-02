@@ -1,4 +1,5 @@
 import { Card, Image, Text } from '@mantine/core';
+import { Link } from '@mongez/react-router';
 import Button from 'design-system/components/Button';
 
 interface CardProps {
@@ -9,7 +10,7 @@ interface CardProps {
 }
 const ServiceCard = ({ id, img, head, text }: CardProps) => {
   return (
-    <Card component="a" href={`/service/${id}`} shadow="sm">
+    <Card component={Link} to={`/engineering-officess/${id}`} shadow="sm">
       <Card.Section p={15}>
         <Image src={img} alt={text} />
       </Card.Section>

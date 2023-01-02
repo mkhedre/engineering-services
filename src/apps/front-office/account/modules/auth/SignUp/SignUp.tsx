@@ -49,7 +49,10 @@ const SignUp = () => {
               <div>
                 {trans('haveAccount')}
                 {' , '}
-                <Link style={{ color: theme.colors.SECONDARY.main }}>
+                <Link
+                  style={{ color: theme.colors.SECONDARY.main }}
+                  to={'/login'}
+                >
                   {trans('login')}
                 </Link>
               </div>

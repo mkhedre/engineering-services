@@ -64,7 +64,10 @@ const Login = () => {
             <Text weight={500}>
               {trans('dontHaveAccount')}
               {', '}
-              <Link style={{ color: theme.colors.SECONDARY.main }}>
+              <Link
+                style={{ color: theme.colors.SECONDARY.main }}
+                to={'/register'}
+              >
                 {trans('joinNow')}
               </Link>
             </Text>

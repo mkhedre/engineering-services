@@ -6,17 +6,23 @@
       "entry": [
         "/my-account",
         "/login",
-        "/signup",
+        "/register",
         "/verify-code",
         "/reset-password",
         "/forget-password",
-        "/edit-profile"
+        "/edit-profile",
+        "/person-provider",
+        "/company-provider"
       ],
       "module": "account"
     },
     {
       "entry": ["/"],
       "module": "home"
+    },
+    {
+      "entry": ["/checkout"],
+      "module": "checkout"
     },
     {
       "entry": ["/price-offer"],

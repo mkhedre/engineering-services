@@ -11,12 +11,15 @@ const rtlCache = createEmotionCache({
   stylisPlugins: [rtlPlugin],
 });
 
+const ltrCache = createEmotionCache({
+  key: 'mantine-ltr',
+});
 export default function Root({ children }: BasicComponentProps) {
   return (
     <MantineProvider
-      // emotionCache={rtlCache}
+      emotionCache={current('localeCode') === 'ar' ? rtlCache : ltrCache}
       theme={{
-        // dir: current('localeCode') === 'ar' ? 'rtl' : 'ltr',
+        dir: current('localeCode') === 'ar' ? 'rtl' : 'ltr',
         components: {
           InputWrapper: {
             defaultProps: {

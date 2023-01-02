@@ -391,7 +391,7 @@ groupedTranslations({
     en: 'total Services Price',
   },
   sr: {
-    ar: 'س.ر',
+    ar: 'ر.س',
     en: 'sr',
   },
   price: {
@@ -498,6 +498,212 @@ groupedTranslations({
     ar: 'اظهار طلبك لمكاتب ومقدمي خدمات تقوم بتحديدهم انت ولا يظهر بشكل عام للجميع',
     en: 'Show your application to offices and service providers that you specify and it is not generally visible to everyone',
   },
+  officesOffers: {
+    ar: 'عروض المكاتب',
+    en: 'Office Offers',
+  },
+  acceptOffer: {
+    ar: 'أوافق علي العرض',
+    en: 'I agree to the offer',
+  },
+  offerIs: {
+    ar: 'العرض ب',
+    en: 'offer Is',
+  },
+  OfficeRequirements: {
+    ar: 'اشتراطات المكتب الھندسي',
+    en: 'Engineering Office Requirements',
+  },
+  allowedPayments: {
+    ar: 'طريقة الدفع المتاحة',
+    en: 'allowed Payments',
+  },
+  bank: {
+    ar: 'بنك',
+    en: 'bank',
+  },
+  AccountHolderName: {
+    ar: 'اسم صاحب الحساب',
+    en: 'Account Holder Name',
+  },
+  AccountNumber: {
+    ar: 'رقم الحساب',
+    en: 'Account Number',
+  },
+  IBANNumber: {
+    ar: 'رقم ايبان',
+    en: 'IBAN Number',
+  },
+  Enteryourdetails: {
+    ar: 'ادخل بياناتك',
+    en: 'Enter your details',
+  },
+  Selectthebank: {
+    ar: 'اختار البنك المراد تحويل اليه',
+    en: 'Select the bank you want to transfer to',
+  },
+  userName: {
+    ar: 'اسم المستخدم',
+    en: 'user Name',
+  },
+  Accountnumbertransferredfrom: {
+    ar: 'رقم الحساب المحول منه',
+    en: 'Account number transferred from',
+  },
+  Bankfrom: {
+    ar: 'البنك المحول منه',
+    en: 'Bank from which the transfer',
+  },
+  ExpiryDate: {
+    ar: 'تاريخ الانتهاء',
+    en: 'Expiry Date',
+  },
+  Payment: {
+    ar: ' المبلغ المدفوع',
+    en: ' Payment',
+  },
+  ConversionDate: {
+    ar: 'تاريخ التحويل',
+    en: 'Conversion Date',
+  },
+  Observations: {
+    ar: 'الملاحظات',
+    en: 'Observations',
+  },
+  Attachimage: {
+    ar: 'ارفاق صورة التحويل',
+    en: 'Attach a transfer image',
+  },
+  PaymentConfirmation: {
+    ar: 'تاكيد الدفع',
+    en: 'Payment Confirmation',
+  },
+  withTax: {
+    ar: 'شامل الضربية',
+    en: 'Comprehensive Beating',
+  },
+  Requiredpayment: {
+    ar: 'المطلوب دفعه',
+    en: 'Required payment',
+  },
+  totalPrice: {
+    ar: 'السعر الكلى',
+    en: 'total Price',
+  },
+  Availablepayment: {
+    ar: 'طريقة الدفع المتاحة',
+    en: 'Available payment method',
+  },
+  Walletbalance: {
+    ar: 'رصيد من المحفظة',
+    en: 'Wallet balance',
+  },
+  accountType: {
+    ar: 'نوع الحساب',
+    en: 'Account Type',
+  },
+  selectAccountType: {
+    ar: 'قم باختيار نوع حسابك',
+    en: 'Select your account type',
+  },
+  personalInfo: {
+    ar: 'بيانات شخصية',
+    en: 'Personal data',
+  },
+  img_cv: {
+    ar: 'صوره الهويه /  وثيقة العمل الحر / الصورة الشخصية',
+    en: 'Copy of ID / Freelance Document / Personal Photo',
+  },
+  Qualifications: {
+    ar: 'مؤهلات',
+    en: 'Qualifications',
+  },
+  youDegree: {
+    ar: 'الدرجه العلمية  / اثبات الشهاده العمليه للتخصص / شهادة ضريبة القيمه المضافة ',
+    en: 'Degree / Proof of practical certificate of specialization / VAT certificate ',
+  },
+  services_times: {
+    ar: 'الخدمات و مواعيد الحجز',
+    en: 'Services & Booking Dates',
+  },
+  workDays: {
+    ar: 'مواعيد ايام العمل علي المنصة',
+    en: 'Dates of working days on the platform',
+  },
+  needMoreInfo: {
+    ar: 'إذا كنت بحاجة إلى مزيد من المعلومات ، يرجى مراجعة ',
+    en: 'If you need more information, please check ',
+  },
+  FAQpage: {
+    ar: 'صفحة الأسئلة الشائعة',
+    en: 'FAQ page',
+  },
+  chooseAccountType: {
+    ar: 'حدد نوع الحساب',
+    en: 'Select Account Type',
+  },
+  joinUs: {
+    ar: 'انضم الينا',
+    en: 'Join Us',
+  },
+  personProvider: {
+    ar: 'حساب مقدم خدمة',
+    en: 'Service Provider Account',
+  },
+  createPersonAccount: {
+    ar: 'انشاء حساب فرد لبيع خدمات الهندسية',
+    en: 'Create an individual account to sell engineering services',
+  },
+  companyProvider: {
+    ar: 'حساب الشركات',
+    en: 'Corporate Account',
+  },
+  createCompanyAccount: {
+    ar: 'إنشاء حساب الشركة لبيع خدماتك الهندسية',
+    en: 'Create a company account to sell your engineering services',
+  },
+  clickHere: {
+    ar: 'اضغط هنا',
+    en: 'click Here',
+  },
+  knowall: {
+    ar: 'لمعرفة جميع البيانات المطلوبة منك ',
+    en: 'To know all the data required of you ',
+  },
+  // latest: {
+  //   ar: 'الاحدث',
+  //   en: 'latest',
+  // },
+  // latest: {
+  //   ar: 'الاحدث',
+  //   en: 'latest',
+  // },// latest: {
+  //   ar: 'الاحدث',
+  //   en: 'latest',
+  // },
+  // latest: {
+  //   ar: 'الاحدث',
+  //   en: 'latest',
+  // },
+  // latest: {
+  //   ar: 'الاحدث',
+  //   en: 'latest',
+  // },
+  // latest: {
+  //   ar: 'الاحدث',
+  //   en: 'latest',
+  // },
+  // latest: {
+  //   ar: 'الاحدث',
+  //   en: 'latest',
+  // },
+  // latest: {
+  //   ar: 'الاحدث',
+  //   en: 'latest',
+  // },// latest: {
+  //   ar: 'الاحدث',
+  //   en: 'latest',
+  // },
   // latest: {
   //   ar: 'الاحدث',
   //   en: 'latest',
@@ -571,6 +777,68 @@ groupedTranslations({
   // latest: {
   //   ar: 'الاحدث',
   //   en: 'latest',
+  // },
+  // latest: {
+  //   ar: 'الاحدث',
+  //   en: 'latest',
+  // },
+  // latest: {
+  //   ar: 'الاحدث',
+  //   en: 'latest',
+  // },// latest: {
+  //   ar: 'الاحدث',
+  //   en: 'latest',
+  // },
+  // latest: {
+  //   ar: 'الاحدث',
+  //   en: 'latest',
+  // },
+  // latest: {
+  //   ar: 'الاحدث',
+  //   en: 'latest',
+  // },
+  // latest: {
+  //   ar: 'الاحدث',
+  //   en: 'latest',
+  // },
+  // latest: {
+  //   ar: 'الاحدث',
+  //   en: 'latest',
+  // },
+  // latest: {
+  //   ar: 'الاحدث',
+  //   en: 'latest',
+  // },// latest: {
+  //   ar: 'الاحدث',
+  //   en: 'latest',
+  // },
+  // latest: {
+  //   ar: 'الاحدث',
+  //   en: 'latest',
+  // },
+  // latest: {
+  //   ar: 'الاحدث',
+  //   en: 'latest',
+  // },
+  // latest: {
+  //   ar: 'الاحدث',
+  //   en: 'latest',
+  // },
+  // latest: {
+  //   ar: 'الاحدث',
+  //   en: 'latest',
+  // },
+  // latest: {
+  //   ar: 'الاحدث',
+  //   en: 'latest',
+  // },
+  // latest: {
+  //   ar: 'الاحدث',
+  //   en: 'latest',
+  // },
+  // latest: {
+  //   ar: 'الاحدث',
+  //   en: 'latest',
   // },// latest: {
   //   ar: 'الاحدث',
   //   en: 'latest',
@@ -595,6 +863,122 @@ groupedTranslations({
   //   ar: 'الاحدث',
   //   en: 'latest',
   // },// latest: {
+  //   ar: 'الاحدث',
+  //   en: 'latest',
+  // },
+  // latest: {
+  //   ar: 'الاحدث',
+  //   en: 'latest',
+  // },
+  // latest: {
+  //   ar: 'الاحدث',
+  //   en: 'latest',
+  // },
+  // latest: {
+  //   ar: 'الاحدث',
+  //   en: 'latest',
+  // },
+  // latest: {
+  //   ar: 'الاحدث',
+  //   en: 'latest',
+  // },
+  // latest: {
+  //   ar: 'الاحدث',
+  //   en: 'latest',
+  // },
+  // latest: {
+  //   ar: 'الاحدث',
+  //   en: 'latest',
+  // },
+  // latest: {
+  //   ar: 'الاحدث',
+  //   en: 'latest',
+  // },// latest: {
+  //   ar: 'الاحدث',
+  //   en: 'latest',
+  // },
+  // latest: {
+  //   ar: 'الاحدث',
+  //   en: 'latest',
+  // },
+  // latest: {
+  //   ar: 'الاحدث',
+  //   en: 'latest',
+  // },
+  // latest: {
+  //   ar: 'الاحدث',
+  //   en: 'latest',
+  // },
+  // latest: {
+  //   ar: 'الاحدث',
+  //   en: 'latest',
+  // },
+  // latest: {
+  //   ar: 'الاحدث',
+  //   en: 'latest',
+  // },// latest: {
+  //   ar: 'الاحدث',
+  //   en: 'latest',
+  // },
+  // latest: {
+  //   ar: 'الاحدث',
+  //   en: 'latest',
+  // },
+  // latest: {
+  //   ar: 'الاحدث',
+  //   en: 'latest',
+  // },
+  // latest: {
+  //   ar: 'الاحدث',
+  //   en: 'latest',
+  // },
+  // latest: {
+  //   ar: 'الاحدث',
+  //   en: 'latest',
+  // },
+  // latest: {
+  //   ar: 'الاحدث',
+  //   en: 'latest',
+  // },
+  // latest: {
+  //   ar: 'الاحدث',
+  //   en: 'latest',
+  // },
+  // latest: {
+  //   ar: 'الاحدث',
+  //   en: 'latest',
+  // },// latest: {
+  //   ar: 'الاحدث',
+  //   en: 'latest',
+  // },
+  // latest: {
+  //   ar: 'الاحدث',
+  //   en: 'latest',
+  // },
+  // latest: {
+  //   ar: 'الاحدث',
+  //   en: 'latest',
+  // },
+  // latest: {
+  //   ar: 'الاحدث',
+  //   en: 'latest',
+  // },
+  // latest: {
+  //   ar: 'الاحدث',
+  //   en: 'latest',
+  // },
+  // latest: {
+  //   ar: 'الاحدث',
+  //   en: 'latest',
+  // },// latest: {
+  //   ar: 'الاحدث',
+  //   en: 'latest',
+  // },
+  // latest: {
+  //   ar: 'الاحدث',
+  //   en: 'latest',
+  // },
+  // latest: {
   //   ar: 'الاحدث',
   //   en: 'latest',
   // },

@@ -56,9 +56,10 @@ const URLS = {
       verifyCode: '/verify-code',
       changePassword: '/my-account/change-password',
     },
-    profile: '/my-account',
+    profile: '/account',
     editProfile: '/edit-profile',
-
+    personProvider: '/person-provider',
+    companyProvider: '/company-provider',
     returns: '/account/returns',
     viewReturnRoute: '/account/returns/:id',
     viewReturn: (order: any) => `/account/returns/${order.id}`,
@@ -76,7 +77,14 @@ const URLS = {
   },
   sitemap: '/sitemap',
   notFound: '/404',
-
+  pay: {
+    checkout: '/checkout',
+    bankAccounts: '/bank-accounts',
+    bankTransfer: '/bank-transfer',
+    ePay: '/e-pay',
+    cart: '/cart',
+    paymentSuccess: '/payment-success',
+  },
   // append urls here, DO NOT remove this line
 };
 

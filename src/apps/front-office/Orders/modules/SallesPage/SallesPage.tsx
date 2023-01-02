@@ -12,8 +12,10 @@ import {
   UnstyledButton,
 } from '@mantine/core';
 import { trans } from '@mongez/localization';
+import { navigateTo } from '@mongez/react-router';
 import Button from 'design-system/components/Button';
 import NewSection from 'design-system/components/Sections/NewSection';
+import Subheading from 'design-system/components/Subheading/Subheading';
 import theme from 'design-system/theme';
 import { useState } from 'react';
 import packimg from 'shared/assets/images/packages/Base.png';
@@ -92,12 +94,7 @@ export default function SallesPage() {
       ]}
     >
       <Container size="lg">
-        <Group>
-          <ThemeIcon variant="light" size={50} radius="xl">
-            <img src={Icons.ShopIcon} />
-          </ThemeIcon>
-          <Text size="xl">{trans('myPasket')}</Text>
-        </Group>
+        <Subheading text="myPasket" icon={Icons.ShopIcon} />
         <Grid gutter={29}>
           <Grid.Col lg={8}>
             <Table bgcolor="#fff" highlightOnHover>
@@ -151,6 +148,7 @@ export default function SallesPage() {
                   fontSize="17px"
                   text={trans('completePaying')}
                   style={{ width: '70%' }}
+                  onClick={() => navigateTo('checkout')}
                 />
               </Center>
             </Card>

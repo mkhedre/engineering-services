@@ -63,6 +63,7 @@ const theme = {
     Derivative: '#459582',
     SUCCESS: '#1891C9',
     pagination: { main: '#ECEEF0', border: '#1A93CB' },
+    bordercolor: '#EDEDED',
   },
   padding: {
     main: '30px',

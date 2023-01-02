@@ -1,6 +1,7 @@
-import router, { Route } from "@mongez/react-router";
-import { Guardian, ReverseGuardian } from "app/account/middleware";
-import BaseLayout from "design-system/layouts/BaseLayout";
+import router, { Route } from '@mongez/react-router';
+import { Guardian, ReverseGuardian } from 'app/account/middleware';
+import BaseLayout from 'design-system/layouts/BaseLayout';
+import LayoutwithNoHeaderFooter from 'design-system/layouts/LayoutNoHeaderFooter';
 
 /**
  * Should be used with public routes that allow both visitors and users to see it
@@ -48,3 +49,10 @@ export function reverseGuardedRoutes(routes: Route[]) {
 //     routes,
 //   });
 // }
+
+export function LayoutNoHeaderFooter(routes: Route[]) {
+  return router.group({
+    layout: LayoutwithNoHeaderFooter,
+    routes: routes,
+  });
+}

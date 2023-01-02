@@ -1,1 +1,1 @@
-export const s = 1;
+import './routes';

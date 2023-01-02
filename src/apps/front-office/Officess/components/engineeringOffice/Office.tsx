@@ -8,6 +8,7 @@ import {
   ThemeIcon,
 } from '@mantine/core';
 import { trans } from '@mongez/localization';
+import { current } from '@mongez/react';
 import { navigateTo } from '@mongez/react-router';
 import Button from 'design-system/components/Button';
 import NewSection from 'design-system/components/Sections/NewSection';
@@ -32,8 +33,8 @@ const Office = () => {
       <Container size="lg">
         <Group
           position="apart"
+          p={20}
           sx={{
-            padding: '20px',
             backgroundColor: '#F9FAFB',
             ':hover': {
               backgroundColor: '#EAF5FA',
@@ -42,11 +43,13 @@ const Office = () => {
         >
           <Group>
             <Indicator
-              inline
               label="4.9"
               size={30}
               color={theme.colors.SECONDARY.main}
               withBorder
+              position={
+                current('localeCode') === 'ar' ? 'middle-start' : 'middle-end'
+              }
             >
               <ThemeIcon size={70} color="#fff">
                 <Image src={Layer} height={25} width="fit-content" />
