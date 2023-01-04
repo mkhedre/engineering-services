@@ -3,7 +3,6 @@ import URLS from '../utils/urls';
 import Login from './modules/auth/login/Login';
 import SignUp from './modules/auth/SignUp/SignUp';
 import Verify from './modules/auth/VerifyCode/Verify';
-import CompanyProvider from './modules/myAccount/components/CompanyProvider';
 import Providers from './modules/myAccount/Providers';
 
 publicRoutes([
@@ -25,10 +24,6 @@ LayoutNoHeaderFooter([
   {
     path: URLS.account.personProvider,
     component: Providers,
-  },
-  {
-    path: URLS.account.companyProvider,
-    component: CompanyProvider,
   },
 ]);
 

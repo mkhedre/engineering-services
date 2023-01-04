@@ -1,9 +1,6 @@
 import { atom, Atom } from '@mongez/react-atom';
 
-type provider = {
-  type: 'string';
-};
-export const providerType: Atom = atom({
+export const serviceProviderAtom: Atom = atom({
   name: 'provider',
   default: 'person',
 });

@@ -218,7 +218,7 @@ export default function Button({
     alignItems: 'center',
     justifyContent: 'center',
     direction: direction ? direction : 'ltr',
-    padding: variant === 'link' ? '5px 5px' : '.8rem 2rem',
+    padding: padding ? padding : variant === 'link' ? '5px 5px' : '.8rem 2rem',
     border: 'none',
     borderRadius: '50px',
     textAlign: 'center',

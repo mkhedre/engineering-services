@@ -1,11 +1,22 @@
 import styled from '@emotion/styled';
+import mediaQueries from 'shared/constants/mediaQueries';
 
-export const CustomButton = styled('div')({
-  border: `1px dotted #80D1FF`,
-  padding: '20px',
+const { tablet, largmobile } = mediaQueries;
+export const CustomButton = styled('button')({
+  padding: '30px',
+  width: '80%',
+  maxwidth: '400px',
   margin: '10px',
-  backgroundColor: '#F1FAFF',
-  '&:visited': {
-    border: `1px dotted red`,
+  border: `1px dashed #D3D3DC`,
+  backgroundColor: '#FBFCFD',
+  cursor: 'pointer',
+  '&:focus': {
+    border: `1px dashed #80D1FF`,
+    backgroundColor: '#F1FAFF',
+  },
+  [largmobile]: {
+    padding: '15px',
+    margin: '0',
+    width: '100%',
   },
 });

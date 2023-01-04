@@ -670,141 +670,146 @@ groupedTranslations({
     ar: 'لمعرفة جميع البيانات المطلوبة منك ',
     en: 'To know all the data required of you ',
   },
-  // latest: {
-  //   ar: 'الاحدث',
-  //   en: 'latest',
-  // },
-  // latest: {
-  //   ar: 'الاحدث',
-  //   en: 'latest',
-  // },// latest: {
-  //   ar: 'الاحدث',
-  //   en: 'latest',
-  // },
-  // latest: {
-  //   ar: 'الاحدث',
-  //   en: 'latest',
-  // },
-  // latest: {
-  //   ar: 'الاحدث',
-  //   en: 'latest',
-  // },
-  // latest: {
-  //   ar: 'الاحدث',
-  //   en: 'latest',
-  // },
-  // latest: {
-  //   ar: 'الاحدث',
-  //   en: 'latest',
-  // },
-  // latest: {
-  //   ar: 'الاحدث',
-  //   en: 'latest',
-  // },// latest: {
-  //   ar: 'الاحدث',
-  //   en: 'latest',
-  // },
-  // latest: {
-  //   ar: 'الاحدث',
-  //   en: 'latest',
-  // },
-  // latest: {
-  //   ar: 'الاحدث',
-  //   en: 'latest',
-  // },
-  // latest: {
-  //   ar: 'الاحدث',
-  //   en: 'latest',
-  // },
-  // latest: {
-  //   ar: 'الاحدث',
-  //   en: 'latest',
-  // },
-  // latest: {
-  //   ar: 'الاحدث',
-  //   en: 'latest',
-  // },
-  // latest: {
-  //   ar: 'الاحدث',
-  //   en: 'latest',
-  // },
-  // latest: {
-  //   ar: 'الاحدث',
-  //   en: 'latest',
-  // },// latest: {
-  //   ar: 'الاحدث',
-  //   en: 'latest',
-  // },
-  // latest: {
-  //   ar: 'الاحدث',
-  //   en: 'latest',
-  // },
-  // latest: {
-  //   ar: 'الاحدث',
-  //   en: 'latest',
-  // },
-  // latest: {
-  //   ar: 'الاحدث',
-  //   en: 'latest',
-  // },
-  // latest: {
-  //   ar: 'الاحدث',
-  //   en: 'latest',
-  // },
-  // latest: {
-  //   ar: 'الاحدث',
-  //   en: 'latest',
-  // },// latest: {
-  //   ar: 'الاحدث',
-  //   en: 'latest',
-  // },
-  // latest: {
-  //   ar: 'الاحدث',
-  //   en: 'latest',
-  // },
-  // latest: {
-  //   ar: 'الاحدث',
-  //   en: 'latest',
-  // },
-  // latest: {
-  //   ar: 'الاحدث',
-  //   en: 'latest',
-  // },
-  // latest: {
-  //   ar: 'الاحدث',
-  //   en: 'latest',
-  // },
-  // latest: {
-  //   ar: 'الاحدث',
-  //   en: 'latest',
-  // },
-  // latest: {
-  //   ar: 'الاحدث',
-  //   en: 'latest',
-  // },
-  // latest: {
-  //   ar: 'الاحدث',
-  //   en: 'latest',
-  // },// latest: {
-  //   ar: 'الاحدث',
-  //   en: 'latest',
-  // },
-  // latest: {
-  //   ar: 'الاحدث',
-  //   en: 'latest',
-  // },
-  // latest: {
-  //   ar: 'الاحدث',
-  //   en: 'latest',
-  // },
-  // latest: {
-  //   ar: 'الاحدث',
-  //   en: 'latest',
-  // },
-  // latest: {
-  //   ar: 'الاحدث',
-  //   en: 'latest',
-  // },
+  cayanInfo: {
+    ar: 'بيانات الكيان التجاري',
+    en: 'Business entity data',
+  },
+  numOfcayan: {
+    ar: 'رقم السجل التجاري , تاريخ الانتهاء ',
+    en: 'Commercial Registration Number , Expiry Date ',
+  },
+  thirData: {
+    ar: 'بيانات الخطوة الثالية',
+    en: 'Next Step Data',
+  },
+  datacomplete: {
+    ar: 'بيانات تكملة التسجيل',
+    en: 'Registration Completion Data',
+  },
+  forthData: {
+    ar: 'بيانات الخطوة الرابعة',
+    en: 'Fourth Step Data',
+  },
+  classify: {
+    ar: 'تصنيف واعتمادات',
+    en: 'Classification and accreditations',
+  },
+  fifthData: {
+    ar: 'بيانات الخطوة الخامسة',
+    en: 'Fifth Step Data',
+  },
+  etemadData: {
+    ar: 'بيانات الاعتماد',
+    en: 'Credentials',
+  },
+  nationalNum: {
+    ar: 'رقم الهوية',
+    en: 'ID Number',
+  },
+  nationalType: {
+    ar: 'نوع الهويه',
+    en: 'Identity Type',
+  },
+  nationalDate: {
+    ar: 'تاريخ انتهاء الهويه',
+    en: 'Identity expiry date',
+  },
+  next: {
+    ar: 'التالى',
+    en: 'next',
+  },
+  prev: {
+    ar: 'الرجوع',
+    en: 'previous',
+  },
+  fullName: {
+    ar: 'الاسم بالكامل',
+    en: 'Full Name',
+  },
+  MembershipNumberoftheSaudi: {
+    ar: 'رقم عضويه الهيئة السعوديه للمهندسين',
+    en: 'Membership number of the Saudi Council of Engineers',
+  },
+  ExpiryDateofMembershipoftheSaudi: {
+    ar: 'تاريخ انتهاء عضوية  الهيئة السعودية للمهندسين',
+    en: 'Expiry Date of Membership of the Saudi Council of Engineers',
+  },
+  Degree_Proofof_practical: {
+    ar: 'الدرجه العلمية  / اثبات الشهاده العمليه للتخصص / شهادة ضريبة القيمه المضافة ',
+    en: 'Degree / Proof of practical certificate of specialization / VAT certificate ',
+  },
+  CertifiedBankAccountNumber: {
+    ar: 'رقم الحساب البنكي المعتمد ',
+    en: 'Certified Bank Account Number ',
+  },
+  category: {
+    ar: 'القسم',
+    en: 'category',
+  },
+  addCategory: {
+    ar: 'اضافة الاقسام',
+    en: 'add Categories',
+  },
+  entityName: {
+    ar: 'اسم الكيان التجاري',
+    en: 'Business entity name',
+  },
+  entityInfo: {
+    ar: 'بيانات الكيان التجاري',
+    en: 'Business entity data',
+  },
+  entityType: {
+    ar: 'نوع الكيان التجاري',
+    en: 'Business Entity Type',
+  },
+  CommercialNumber: {
+    ar: 'رقم السجل التجاري',
+    en: 'Commercial Registration Number',
+  },
+  CommercialEndDate: {
+    ar: 'تاريخ الانتهاء للسجل',
+    en: 'End date for the record',
+  },
+  CommercialRole: {
+    ar: 'نشاط السجل التجاري الرئيسى',
+    en: 'Main Commercial Registration Activity',
+  },
+  ThirdStepInfo: {
+    ar: 'بيانات الخطوة الثالثة',
+    en: 'Third Step Data',
+  },
+  homeAddress: {
+    ar: 'العنوان الوطني',
+    en: 'National Address',
+  },
+  commericalRoomNumber: {
+    ar: 'رقم عضوية الغرفه التجارية',
+    en: 'Chamber of Commerce membership number',
+  },
+  ForthStepInfo: {
+    ar: 'بيانات الخطوة الرابعة',
+    en: 'Fourth Step Data',
+  },
+  forthfiles: {
+    ar: 'رفع شهادات التصنيف / شهادة الزكاه والدخل / شهادة ضريبة القيمه المضافه شهادة السعودة / شهادة التامينات الاجتماعية / رخصة البلدية',
+    en: 'Raising classification certificates / Zakat and Income Certificate / VAT certificate Saudization certificate / Social Insurance Certificate / Municipality License',
+  },
+  builderNumber: {
+    ar: 'رقم عضوية هيئة المقاولين (خاص بالمقاولين)',
+    en: 'Contractors Authority Membership Number (for contractors)',
+  },
+  builderEndDate: {
+    ar: 'تاريخ انتهاء عضوية هيئة المقاولين (خاص بالمقاولين)',
+    en: 'Expiry Date of Contractors Authority Membership (for contractors)',
+  },
+  addedValueCertificate: {
+    ar: 'شهادة ضريبة القيمه المضافه',
+    en: 'VAT Certificate',
+  },
+  select: {
+    ar: 'حدد',
+    en: 'select',
+  },
   // latest: {
   //   ar: 'الاحدث',
   //   en: 'latest',

@@ -22,6 +22,13 @@ export default function Root({ children }: BasicComponentProps) {
         dir: current('localeCode') === 'ar' ? 'rtl' : 'ltr',
         components: {
           InputWrapper: {
+            styles: {
+              label: {
+                fontSize: '14px',
+                fontWeight: 350,
+                marginBottom: '7px',
+              },
+            },
             defaultProps: {
               inputWrapperOrder: ['label', 'error', 'input', 'description'],
             },
@@ -29,6 +36,7 @@ export default function Root({ children }: BasicComponentProps) {
           Input: {
             styles: {
               input: {
+                backgroundColor: '#F5F8FA',
                 '&:focus-within': {
                   borderColor: theme.colors.PRIMARY.main,
                 },

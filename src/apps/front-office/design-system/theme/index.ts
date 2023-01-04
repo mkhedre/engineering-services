@@ -38,6 +38,7 @@ const theme = {
       text: '#F0F0F2',
       dark: '#919EAB',
       main: '#5A7184',
+      label: '#7E8299',
       DARK_GRAY: '#707070',
     },
     blue: {

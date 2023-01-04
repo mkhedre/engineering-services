@@ -5,6 +5,9 @@ import theme from 'design-system/theme';
 const useStyles = createStyles(() => ({
   stepLabel: {
     color: theme.colors.SUCCESS,
+    '&[data-completed]': {
+      color: theme.colors.SUCCESS,
+    },
   },
   verticalSeparator: {
     border: `1px dashed #C9CFD9`,
@@ -14,12 +17,19 @@ const useStyles = createStyles(() => ({
     backgroundColor: theme.colors.PRIMARY.main,
     zIndex: 2,
   },
+  stepIcon: {
+    backgroundColor: theme.colors.PRIMARY.main,
+    color: '#fff',
+    '&[data-progress]': {
+      backgroundColor: theme.colors.blue.main,
+    },
+  },
 }));
 export default function Line({ active }: any) {
   const { classes } = useStyles();
   return (
     <>
-      <Flex align="center" h="80%">
+      <Flex align="center" mt={50}>
         <Stepper
           radius="md"
           active={active}
@@ -46,18 +56,6 @@ export default function Line({ active }: any) {
             description={trans('workDays')}
             pb={50}
           />
-          {/* <Stepper.Step
-          label={trans('accountType')}
-          lineVariant="dotted"
-          bulletSize={40}
-          bullet={<div>5</div>}
-          pb={20} 
-          pl={40}
-        >
-          <Text color="dimmed" size="sm">
-            {trans('selectAccountType')}
-          </Text>
-        </Stepper.Step> */}
         </Stepper>
       </Flex>
       <Box pl={20}>
